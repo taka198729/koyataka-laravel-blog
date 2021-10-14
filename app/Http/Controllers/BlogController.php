@@ -82,7 +82,7 @@ class BlogController extends Controller
             return redirect(route('blogs'));
         }
 
-        return view('blog.Edit', ['blog' => $blog]);
+        return view('blog.edit', ['blog' => $blog]);
     }
     /**
      * ブログを更新する
