@@ -22,6 +22,7 @@ class BlogController extends Controller
     }
     /**
      * ブログ詳細を表示する
+     *
      * @param int
      * @return view
      */
@@ -70,6 +71,7 @@ class BlogController extends Controller
     }
     /**
      * ブログ編集フォームを表示する
+     *
      * @param int
      * @return view
      */
@@ -112,6 +114,7 @@ class BlogController extends Controller
     }
     /**
      * ブログ削除
+     *
      * @param int
      * @return view
      */
